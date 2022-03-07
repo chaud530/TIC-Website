@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Supersized - Full Screen Background Slideshow jQuery Plugin</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		
+		<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+		
+		<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+		<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+		
+		<script type="text/javascript">
+			
+			jQuery(function($){
+				
+				$.supersized({
+				
+					// Functionality
+					slide_interval          :   7500,		// Length between transitions
+					transition              :   6, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+					transition_speed		:	2000,		// Speed of transition
+															   
+					// Components							
+					slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+					slides 					:  	[			// Slideshow Images
+{image :'../Retail/avenue/Picture1.jpg'},
+{image :'../Retail/avenue/Picture2.jpg'},
+{image :'../Retail/avenue/Picture3.jpg'},
+{image :'../Retail/avenue/Picture4.jpg'},
+{image :'../Retail/avenue/Picture5.jpg'},
+{image :'../Retail/avenue/Picture6.jpg'},
+{image :'../Retail/govindas/Picture11.jpg'},
+{image :'../Retail/govindas/Picture12.jpg'},
+{image :'../Retail/govindas/Picture13.jpg'},
+{image :'../Retail/govindas/Picture14.jpg'},
+{image :'../Retail/govindas/Picture15.jpg'},
+{image :'../Retail/govindas/Picture16.jpg'},
+{image :'../Retail/milestone/Picture17.jpg'},
+{image :'../Retail/milestone/Picture18.jpg'},
+{image :'../Retail/milestone/Picture19.jpg'},
+{image :'../Retail/milestone/Picture20.jpg'},
+												
+												]
+				});
+		    });
+		    
+		</script>
+		
+	</head>
+	
+	<style type="text/css">
+		ul#demo-block{ margin:0 15px 15px 15px; }
+			ul#demo-block li{ margin:0 0 10px 0; padding:10px; display:inline; float:left; clear:both; color:#aaa; background:url('img/bg-black.png'); font:11px Helvetica, Arial, sans-serif; }
+			ul#demo-block li a{ color:#eee; font-weight:bold; }
+	</style>
+
+<body>
+
+<div id="prevthumb"></div>
+	<div id="nextthumb"></div>
+	
+	<a id="prevslide" class="load-item"></a>
+	<a id="nextslide" class="load-item"></a>
+	
+	<div id="thumb-tray" class="load-item">
+		<div id="thumb-back"></div>
+		<div id="thumb-forward"></div>
+	</div>
+	
+    <div id="progress-back" class="load-item">
+		<div id="progress-bar"></div>
+	</div>
+	
+	<div id="controls-wrapper" class="load-item">
+		<div id="controls">
+			<a id="play-button"><img id="pauseplay" src="img/pause.png"/></a>
+			<div id="slidecounter">
+				<span class="slidenumber"></span> / <span class="totalslides"></span>
+			</div>
+			
+			<div id="slidecaption"></div>
+			<a id="tray-button"><img id="tray-arrow" src="img/button-tray-up.png"/></a>
+			<ul id="slide-list"></ul>
+		</div>
+	</div>
+
+</body>
+</html>
