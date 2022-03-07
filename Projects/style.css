@@ -1,0 +1,466 @@
+*{	margin:0;
+	padding:0;
+	color: #fff;
+	font-family: Trebuchet MS, Cambria;
+	word-wrap: break-word;
+}
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+#home {
+	height: 55px;
+	background-color: #333;
+}
+
+#topnav {
+	overflow: hidden;
+	text-align: center;
+	vertical-align: center;
+	position: fixed; /* Set the navbar to fixed position */
+	width: 100%; /* Full width */
+	height: 40px;
+	padding-top: 15px;
+	background-color: #333;
+	z-index:1;
+}
+#topnav a {
+  	color: #fff;
+	font-weight: 900;
+	text-align: center;
+  	text-decoration: none;
+  	font-size: 22px;
+	vertical-align: center;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#topnav li {
+	display: inline;
+}
+#topnav ul li a {
+	text-decoration: none;
+    color: #fff;
+}
+  
+#topnav ul li:active a {
+	color: #FFA500;
+}
+
+#topnav ul li:hover a {
+	color: #FFFF00;
+}
+
+
+
+.home2 {
+	text-align: center;
+	background-image: url("../src/Canberra Pic.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-bottom: 300px;
+	width: 100%;
+}
+.homefont {
+	font-size: 80px;
+	padding-top: 250px;
+}
+.homefont2 {
+	font-size: 25px;
+	margin-top:15px;
+}
+.homecontact {
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 30px;
+}
+
+#about {
+	text-align: center;
+	background-image: url("../src/About Me Pic.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+.title {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	padding-top:120px;
+	color:deepskyblue;
+}
+.subtitle {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	padding-top:15px;
+	color:deepskyblue;
+}
+.aboutinfo {
+	padding-top:65px;
+	padding-left:15%;
+	padding-right:15%;
+	padding-bottom: 35px;
+	float:left;
+	color: inherit;
+}
+.picture {
+	padding-top: 10px;
+	float:left;
+	vertical-align: middle;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.abouttext {
+	padding-top: 10px;
+	/*text-align: center;*/
+	font-size: 16px;
+	line-height: 30px;
+	color:inherit;
+	text-align: justify;
+}
+
+.aboutinfo2 {
+	padding-left:15%;
+	padding-right:15%;
+	color:white;
+}
+
+.aboutinfo2:after {
+	content: "";
+  	display: table;
+  	clear: both;
+}
+
+.profile {
+  	float: left;
+  	width: 47%;
+	margin-bottom: 100px;
+	color:inherit;
+}
+
+.profiletext {
+	text-align: left;
+	line-height: 32px;
+	padding-top: 16px;
+	color:inherit;
+	font-size: 16px;
+}
+.aboutsubtitle {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 900;
+	background-color: #fff;
+	color: #000;
+}
+
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+.skilltitle {
+	text-align: center; /* Right-align text */
+	padding-top: 16px; /* Add top padding */
+	padding-bottom: 5px; /* Add bottom padding */
+	color: white; /* White text color */
+}
+.skills90 {
+	width: 90%;
+	background-color: #00CC00;
+}
+.skills80 {
+	width: 80%;
+	background-color: #0000FF;
+}
+
+
+
+
+
+
+#resume {
+	/*background-image: url("../src/About Me Pic.jpg");*/
+	background-color: #000;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.resumeinfo {
+	padding-top: 100px;
+}
+.resumecompany {
+	text-align: center;
+	font-size: 20px;
+	padding-top:25px;
+}
+.resumedate {
+	text-align: center;
+	font-size: 16px;
+	padding-top:5px;
+}
+.resumedetail {
+	text-align: center;
+	float: center;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.downloadbtn {
+	text-align: center;
+	padding-bottom: 150px;
+}
+.btn {
+	background-color: #fff;
+	border: none;
+	cursor: pointer;
+	font-weight: 900;
+	color: black;
+	font-size: 25px;
+	padding: 20px 50px;
+	border-radius: 50px;
+}
+.btn:hover {
+	background-color: deepskyblue;
+	color: #fff;
+}
+
+
+
+#projects {
+	background-image: url("../src/About Me Pic.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 100px;
+}
+
+
+
+#contact {
+	background-color: #555;
+	padding-bottom: 50px;
+}
+
+.contactinfo {
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 100px;
+	margin-left: 0%;
+	margin-right: 0%;
+	background-color: inherit;
+	padding-bottom: 100px;
+}
+
+.contactdet {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.contacttext {
+	font-size: 25px;
+	text-align: center;
+	font-weight: 900;
+	overflow-x: hidden;
+	margin-bottom: 5px;
+	margin-top: 25px;
+	word-wrap: break-word;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.placeholder {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.dot {
+	height: 100%;
+  	width: 100%;
+  	background-color: #bbb;
+	background-image:url("../src/background pic.jpg");
+  	border-radius: 50%;
+  	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll;
+}
+
+
+
+
+.contactlink {
+	font-size: 18px;
+	text-align: center;
+	font-weight:900;
+	color: deepskyblue;
+	word-wrap: break-word;
+}
+
+.rectangle {
+	height: 2px;
+	width: 50%;
+	background-color: #fff;
+	left: 25%;
+	margin-top:20px;
+	margin-bottom:20px;
+	position:relative;
+	z-index: 0;
+}
+
+.skills70 {
+	width: 70%;
+	background-color: #BB00BB;
+}
+
+.skills60 {
+	width: 60%;
+	background-color: #FFA019;
+}
+
+.proj {
+	padding-top: 100px;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+}
+
+.projpic {
+	float: center;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 60px;
+	width: 450px;
+	height: 250px;
+	display: inline-block;
+	background-color: #000;
+}
+
+.projpic img {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	-webkit-filter: brightness(100%);
+	float:left;
+	border: 2px solid #fff;
+}
+
+.overlay img {
+	height: 20px;
+	width: 20px;
+	padding-left: 15%;
+	padding-top: 7%;
+	float: left;
+	border: none;
+}
+
+/*.projpic img:hover {
+	-webkit-filter: brightness(10%);
+}*/
+
+/* Parent Container */
+.projdet{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	float: center;
+	text-align: center;
+}
+
+/* Child Text Container */
+.overlay{
+	position: absolute;
+	text-align: center;
+	color: white;
+	margin-top: 2px;
+	margin-left: 2px;
+	width: 100%;
+	height: 100%;
+	background:black;
+	font-size: 16px;
+	font-family: sans-serif;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: visibility 0s, opacity 0.3s linear;
+	transition: visibility 0s, opacity 0.3s linear;
+}
+
+/* Hover on Parent Container */
+.projdet:hover{
+ 	cursor: pointer;
+}
+
+.projdet:hover .overlay{
+	visibility: visible;
+	opacity: 0.9;
+}
+
+.projtitle {
+	font-size: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	color: white;
+	text-align: center;
+}
+
+.projtext {
+	font-size: 16px;
+	line-height: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+	color: white;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 850px) {
+  	.profile {
+   		width: 100%;
+  	}
+	.picture {
+		float: none;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.profile {
+   		width: 100%;
+  	}
+	.picture {
+		float:none;
+	}
+	#topnav a {
+		font-size: 15px;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+}
+
+.projskills {
+	font-size: 14px;
+	margin-left: 25%;
+	padding-right: 10%;
+	padding-top: 7.5%;
+	color: white;
+	text-align: left;
+}
+
+
