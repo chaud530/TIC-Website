@@ -1,0 +1,127 @@
+* {	margin: 0;
+	/* [disabled]padding: 0; */
+	outline: 0;
+}
+
+body {font-family: Helvetica, Arial, Verdana, sans-serif;
+	  font-size: 12px;
+	  background:#FFF;
+}
+
+h1{font-family:Verdana, Geneva, sans-serif;
+   font-size:16px;
+   color:#000;
+}
+
+h2{font-family:Verdana, Geneva, sans-serif;
+   font-size:14px;
+   margin-bottom:10px;
+   color:#000;
+}
+
+h3{font-family:Verdana, Geneva, sans-serif;
+   font-size:14px;
+   font-weight:normal;
+   margin-top:10px;
+   color:#FFF;
+}
+
+p {font-size:18px;
+   font-family:Verdana, Geneva, sans-serif;
+   color:;
+}
+
+strong{font-weight:bold;
+	   font-size:18px;
+}
+
+strong2{font-weight:bold;
+		font-size:26px;
+		color:;
+}
+
+a {color: #3e3e3e;
+}
+
+.wrap {width:100%;
+	   z-index: 10;
+	   position:relative;
+	   margin: auto;
+	   padding: 0;
+	   background-image:url(background.jpg);
+}
+
+.subMenu{margin-right:0;
+		 width: 250px;
+		 height: 750px;
+		 z-index: 1000;
+		 float:right;
+}
+
+.sTop {padding:0;
+	   height:118px;
+}
+
+.pics {
+	background-attachment:fixed;
+	height:800px;
+}
+
+.homeinfo{width:320px;
+		  height:800px;
+		  margin-top:15px;
+		  margin-left:10px;
+		  float:left;
+		  font-family:"Trebuchet", Arial, Helvetica, sans-serif;
+		  font-size:18px;
+		  text-align:justify;
+}
+
+.slideshow{float: left;
+		   margin-left:15px;
+		   margin-top: 21px;
+		   width:660px;
+}
+		   
+.button{box-shadow:2px 12px 13px -5px #1D7098;
+		background:linear-gradient(to bottom,#619EDC 15%,#276DB4 100%);
+		border-radius:15px;
+		display:inline-block;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:18px;
+		font-weight:bold;
+		padding:10px 20px 8px;
+		text-decoration:none;
+		margin-bottom:10px;
+}
+
+a.button:hover{color:#000!important;
+}
+
+.Menuinner {width: 246px;
+			margin-right:0;
+			height: 575px;
+			padding: 0;
+			background-color:;
+}
+
+.MenuBar1 p{color:#F33;
+			font-size:27px;
+			font-weight:bold;
+}
+
+.MenuBar2 p{color:#F33;
+			font-size:27px;
+			font-weight:bold;
+}
+
+.MenuBar3 p{color:#F33;
+			font-size:27px;
+			font-weight:bold;
+}
+
+.MenuBar4 p{color:#F33;
+			font-size:27px;
+			font-weight:bold;
+}
